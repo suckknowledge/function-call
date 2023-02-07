@@ -33,11 +33,11 @@ int main()
 	int y=find_x(arr,x,sz);
 	if (-1 != y)
 	{
-		printf("找到了：%d",arr[y]);
+		printf("find it:%d",arr[y]);
 	}
 	else
 	{
-		printf("没找到 ");
+		printf("don't find ");
 	}
 	return 0;
 }
